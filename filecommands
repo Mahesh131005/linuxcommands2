@@ -1,0 +1,137 @@
+pwd present working directory
+whoami to see present user
+host name to know the present system name
+who am i to get more user information
+uname -r kernel version
+uname -a 
+last
+last login
+users
+date to know the present system date
+cal to know present calender
+cal 2023 to see 2023 calender
+hostnamectl
+cat /etc/os-release
+cat /etc/redhat-release
+cat /etc/rockylinux-release
+tree
+rpm -q packagename
+rpm -qi packagename
+rpm -Rqi packagename
+cat >filename
+cat filename
+cat>>filename
+touch filename
+touch filename filename ...nth filename
+touch filename(1...any num)
+mkdir directoryname
+mkdir directoryname dierectory...
+mkdir .directoryname-create hidden directory
+ld
+ls -l
+ls -a
+ls -la
+ls -r
+ls -lra
+ls -o
+ll
+ll -a
+ll -r
+ll -o
+ll -ro
+mv filename newfile
+mv source-path destination-path
+cp file-name new-filename - this command is used for copying data of one file into another file
+cp source-file-path destination-path -used for copying file only
+cp -r source-directory-path destination path -to copy directory
+cp -rvfp source-directory-path destination=path  -recursively,vigorouysly,forcefully,with permissions
+mkdir -p /directory-name/directory-name/.directory-name
+rm f
+rm source-path/filename
+rm -f filename
+rm -f sourcepath/file-name
+rm -r directory
+rm -r source-directory/directory name
+rm -r
+cd directory-name
+cd directory-name/directory-name...nth directory-name
+cd ..
+cd ../../.. nth directory number
+cd -
+init o
+init 6
+yum list installed
+yum list available
+ctrl+d
+yum update -y
+yum remove package-name
+chmod u+rwx
+chmod g+rwx
+chmod o+rwx
+chmod ug+rwx
+chmod go+rwx
+chmod uo+rwx
+chmod ugo-rwx
+chmod 777 filename
+chmod 666 filename
+chmod 555 filename
+chmod 444 filename
+chmod 333 filename
+chmod 222 filename
+chmod 111 filename
+cat /destination-directory/filename
+cp filename new file
+cp -r sorce-directory-path destination-path
+cp -rvfp source-directory-path
+reboot
+init 3
+init 5
+free -h
+free -m
+free -k
+free -b
+free -g
+lsblk 
+fdisk -l
+du -h
+vi filename
+vim filename
+i
+I
+o
+O
+A
+a
+w
+b
+nw
+nb
+dd
+ndd
+yy
+nyy
+p
+hjkl
+u
+x
+X
+g
+G
+set nu
+set nonu
+:!command
+:w
+:wq
+:w!
+:q
+:q!
+:wq!
+/character-name
+/word-name
+
+
+
+
+
+
+
