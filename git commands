@@ -1,0 +1,57 @@
+git add filename <-- here we can add only one file at a time.
+git add filename filename <-- we can add one or more files at a time
+ git add . <-- to add all(Normal and Hiddened) files
+ git add * <--to add all(only normal) files
+  git add --all <-- to add all files
+  git add -A <-- to add all files
+ git add p* P* a* A* d*   (this is only 1 example here for this time)
+git stage filename <-- here we can add only one file at a time
+git stage filename filename <-- we can add one or more files at a time
+git stage . <-- to add all(normal amd hiddend) files
+git stage * <-- to add all(only normal)
+git stage --all <-- to add all files
+git stage -A <-- to add all files
+git stage p* P* a* A* d*    (this is only 1 example here for this time)
+git reset <-- to unstage all files at a time(this is also example for unstable all files)
+git reset filename 
+git reset filename filename
+git reset . (this ia also a example)
+git reset * ( this is also a example)
+git reset p* P* a* A* d* ( this is only 1 example here for this time)
+Sysntax
+git commit -m "message" filename
+git commit -m "message" filename filename <-- to commit multiple files at a time
+git commit -m "message" <-- to commit all files at a time
+example
+git commit -m "index.html V1.0" index.html
+git commit -am "message" <--we are commiting the all modified and deleted files from working director
+git show <-- this command used for to see the latest committed files along with file content
+git reset --soft HEAD~ <-- to call back latest committed files from committing area to staging
+git reset @~ <-- 
+git add -u : <-- to add only modified and deleted files from working directory to staging
+git diff
+git diff file-name
+git reset --hard HEAD~
+git branch <new branch name>
+git branch -m <old branch name> <new branch name>
+git branch -d <branch-name>
+git checkout <branch-name>
+git checkout -b <new branch name>
+git push origin -u future-branch
+git push origin future-branch
+git push origin --all
+git commit --amend --no-edit
+git pull
+git fetch
+git rebase
+git merge
+git tag
+git tag-a -m " "
+git push tag
+git branch conflicts
+git stash
+git stash pop
+git stash pop id
+git stash show stash id
+git stash drop
+git stash clean
